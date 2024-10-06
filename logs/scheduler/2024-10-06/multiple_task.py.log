@@ -1,0 +1,22 @@
+[2024-10-06T04:56:54.994+0000] {processor.py:186} INFO - Started process (PID=5677) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:54.995+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:56:54.996+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:54.996+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:55.004+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_ferian' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:55.097+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:55.097+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:multiple_tasks_ferian
+[2024-10-06T04:56:55.109+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:55.109+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:multiple_tasks_ferian
+[2024-10-06T04:56:55.117+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:55.117+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:multiple_tasks_ferian
+[2024-10-06T04:56:55.135+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:55.135+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:multiple_tasks_ferian
+[2024-10-06T04:56:55.144+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:55.144+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:multiple_tasks_ferian
+[2024-10-06T04:56:55.153+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:55.153+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:multiple_tasks_ferian
+[2024-10-06T04:56:55.161+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:55.161+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:multiple_tasks_ferian
+[2024-10-06T04:56:55.162+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:55.161+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:56:55.172+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:55.172+0000] {dag.py:3262} INFO - Creating ORM DAG for multiple_tasks_ferian
+[2024-10-06T04:56:55.181+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:55.180+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_ferian to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:56:55.194+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.204 seconds
+[2024-10-06T04:57:25.289+0000] {processor.py:186} INFO - Started process (PID=5741) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:57:25.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:57:25.291+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:57:25.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:57:25.299+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_ferian' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:57:25.313+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:57:25.313+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:57:25.332+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:57:25.332+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_ferian to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:57:25.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.066 seconds
